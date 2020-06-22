@@ -1,0 +1,11 @@
+html {
+    background-color: #dae5ec;
+    --material-primary-color: #10499f;
+    --material-secondary-text-color: #35747a;
+    --_material-button-outline-color: #0f1c4c;
+}
+
+html:host {
+    --material-primary-text-color: #10499f;
+    --material-background-color: #dae5ec;
+}
