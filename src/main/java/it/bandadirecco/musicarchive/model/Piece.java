@@ -21,6 +21,7 @@ public class Piece {
     private long folderNumber;
 
     @OneToOne
+    @JoinColumn(nullable = false)
     private Author composer;
 
     @OneToOne
